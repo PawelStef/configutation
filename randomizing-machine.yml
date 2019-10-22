@@ -1,3 +1,7 @@
 random:
   words: Hello,world,my,priekrasnaja,app,nom
   numbers: 7,37,23,51,93,33
+eureka:
+  client:
+    serviceurl:
+      defaultZone: http://localhost:8010/eureka/
